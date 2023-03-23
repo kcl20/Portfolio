@@ -1,11 +1,11 @@
 import React from 'react';
+import '../styles/Styles.css';
+import resume from "../../Assets/Resume - Kenny Li - Grantbook.docx.pdf";
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Download my <a href='/full-stack-developer-portfolio/public/Resume - Kenny Li - Grantbook.docx.pdf'>Resume</a></h1>
-      <p>
-      </p>
+    <div className="resume">
+      <p>Download my <a href={resume}>Resume</a></p>
     </div>
   );
 }

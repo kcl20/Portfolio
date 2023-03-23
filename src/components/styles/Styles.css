@@ -1,0 +1,39 @@
+.main {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.about, .contact, .resume, .card, .home  {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.avatar {
+    width: 30%;
+    height: 30%;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p {
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+}
+
+.main p {
+    font-size: 1.5em;
+}
+
+.contact p {
+    font-size: 1.5em;
+}
+
+.resume p {
+    font-size: 1.5em;
+}

@@ -1,9 +1,13 @@
 import React from 'react';
+import '../styles/Styles.css';
+import avatar from "../../Assets/Fotor_AI.png";
+
 
 export default function About() {
   return (
-    <div>
+    <div className="about">
       <h1>About Me</h1>
+      <img src={avatar} className="avatar" alt="avatar" />
       <p>
       Enabling non-profits to do more good. I bridge people and processes with technology, connecting and empowering teams to succeed with the latest tools, systems and digital strategies.
 

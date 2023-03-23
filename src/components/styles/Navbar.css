@@ -1,0 +1,8 @@
+.nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+}
